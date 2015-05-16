@@ -1,0 +1,64 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): POP2
+* LOCATION   (KHOLE): 
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2013-01-17T16:30:18
+* START             : 2010-06-31T00:00:00
+* END               : 2012-09-30T23:59:59
+* DESCRIPTION       : Popayán, Colombia
+* LATITUDE          : 2.32
+* LONGITUDE         : -76.68   
+* ELEVATION         : 1869
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 1.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3T S/N T35541 Seismometer DM24 S/N A1149 DCM S/N 10314487 Digitiser
+* INSTGAIN          : 0.000000e+03 (M/S)
+* COMMENT           : N/A
+* SENSITIVITY       : 0.000000e+08 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS	3
+	+0.000000e+00	+0.000000e+00
+	+0.000000e+00	+0.000000e+00
+	+0.000000e+00	+0.000000e+00
+POLES	5
+	-3.700000e-02	+3.700000e-02
+	-3.700000e-02	-3.700000e-02
+        -1.130000e+03	+0.000000e+00
+	-1.010000e+03	-0.000000e+00
+        -5.030000e+02	+0.000000e+00
+CONSTANT	+3.586000e+17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): OCA
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2013-01-17T16:30:18
+* START             : 2012-05-03T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Ocaña, Norte de Santander, Colombia
+* LATITUDE          : 8.24
+* LONGITUDE         : -73.32   
+* ELEVATION         : 1264
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium S/N 0407 Seismometer Q330 ID4667 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.201e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -9.00000e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 7
+   -3.85200e-02      3.65800e-02
+   -3.85200e-02     -3.65800e-02
+   -1.78000e+02      0.00000e+00
+   -1.35000e+02      1.60000e+02
+   -1.35000e+02     -1.60000e+02
+   -6.71000e+02      1.15400e+03
+   -6.71000e+02     -1.15400e+03
+CONSTANT 7.765069e+19

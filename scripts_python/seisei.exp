@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+spawn seisei
+expect "Merge (1) or split (2) files:"
+send "1\r"
+expect "Output format, seisan or mseed ?"
+send "mseed\r"
+expect "Give 1-5 letter network code for merged file(s), NSN   is default"
+send "POP\r"
+expect "Maximum difference (sec) of events to merge, return for default (180 secs)"
+send "\r"
+interact

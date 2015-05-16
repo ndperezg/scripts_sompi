@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): ARGC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHZ
+* CREATED           : 2013-01-17T16:30:18
+* START             : 2013-04-24T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Ariguani, Magdalena, Colombia
+* LATITUDE          : 9.8576
+* LONGITUDE         : -74.2458 
+* ELEVATION         : 187
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek 151-120A S/N G10160VS Seismometer Q330 ID 5345 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 2.01135e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -1.81800e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 6
+   -3.70184e-02     -3.70296e-02
+   -3.70184e-02      3.70296e-02
+   -1.80331e+02     -1.89922e+02
+   -1.80331e+02      1.89922e+02
+   -2.09581e+01      0.00000e+00
+   -7.72030e+02      0.00000e+00
+CONSTANT 5.081442e+16

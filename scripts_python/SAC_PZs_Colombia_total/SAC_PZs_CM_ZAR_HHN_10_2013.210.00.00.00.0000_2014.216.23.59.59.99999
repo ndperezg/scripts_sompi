@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): ZAR
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2013-10-28T16:30:18
+* START             : 2013-04-17T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Zaragoza, Antioquia, Colombia
+* LATITUDE          : 7.492
+* LONGITUDE         : -74.86   
+* ELEVATION         : 217.6
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek S/N G10155Vs Seismometer Q330 ID3977 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 2.00122e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -1.81800e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 6
+   -3.70184e-02     -3.70296e-02
+   -3.70184e-02      3.70296e-02
+   -1.80331e+02     -1.89922e+02
+   -1.80331e+02      1.89922e+02
+   -2.09581e+01      0.00000e+00
+   -7.72030e+02      0.00000e+00
+CONSTANT 5.055849e+16

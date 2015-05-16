@@ -1,0 +1,38 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): 
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2014-09-01T16:30:18
+* START             : 2014-09-01T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Ocaña, Norte de Santander, Colombia
+* LATITUDE          : 8.24
+* LONGITUDE         : -73.32   
+* ELEVATION         : 1264
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium compact S/N 0407 Seismometer Taurus Digitiser (16Vpp)
+* INSTGAIN          : 1000000 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 7.491e+02 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -4.34100e+02      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 7
+   -3.69100e-02      3.71200e-02
+   -3.69100e-02     -3.71200e-02
+   -3.71200e+02     -0.00000e+00
+   -3.73900e+02      4.75500e+02
+   -3.73900e+02     -4.77500e+02
+   -5.88400e+02      1.50800e+03
+   -5.88400e+02     -1.50800e+03
+CONSTANT 6.157365e+20

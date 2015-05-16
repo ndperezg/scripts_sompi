@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): ZAR
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2014-08-14T16:30:18
+* START             : 2014-08-05T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Zaragoza, Antioquia, Colombia
+* LATITUDE          : 7.492
+* LONGITUDE         : -74.86   
+* ELEVATION         : 217.6
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Streckeisen STS-2.5 S/N 120910 Seismometer Q330 ID3977 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.99678e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -3.70000e-02      3.70000e-02
+   -3.70000e-02     -3.70000e-02
+   -2.51000e+02      0.00000e+00
+   -1.30000e+02      4.67000e+02
+   -1.30000e+02     -4.67000e+02
+CONSTANT 3.711470e+16

@@ -1,0 +1,34 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): GARC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2014-04-15T16:30:18
+* START             : 2014-02-27T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Garzon, Huila, Colombia
+* LATITUDE          : 2.186
+* LONGITUDE         : -75.4932  
+* ELEVATION         : 1999
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek  S/N G12206VS Seismometer Q330 ID5355 Digitiser  
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.98791e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 4
+   -3.70200e-02     -3.70200e-02
+   -3.70200e-02      3.70200e-02
+   -1.77720e+02     -1.77720e+02
+   -1.77720e+02      1.77720e+02
+CONSTANT 5.266951e+13

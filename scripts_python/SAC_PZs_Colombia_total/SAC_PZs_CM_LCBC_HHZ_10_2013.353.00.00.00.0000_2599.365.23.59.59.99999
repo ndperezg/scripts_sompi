@@ -1,0 +1,38 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): LCBC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHZ
+* CREATED           : 2014-01-13T16:51:00
+* START             : 2013-12-18T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Los Cordobas, Cordoba, Colombia
+* LATITUDE          : 8.857
+* LONGITUDE         : -76.386 
+* ELEVATION         : 115
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Trillium S/N  Seismometer Q330 010000143B0CD40C (ID:4653) Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 2.00613e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -9.00000e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 7
+   -3.85200e-02      3.65800e-02
+   -3.85200e-02     -3.65800e-02
+   -1.78000e+02      0.00000e+00
+   -1.35000e+02      1.60000e+02
+   -1.35000e+02     -1.60000e+02
+   -6.71000e+02      1.15400e+03
+   -6.71000e+02     -1.15400e+03
+CONSTANT 7.765069e+19

@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): ROSC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): BHN
+* CREATED           : 2013-01-30T16:30:18
+* START             : 2010-12-01T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Rosal, Cundinamarca, Colombia
+* LATITUDE          : 4.84
+* LONGITUDE         : -74.32  
+* ELEVATION         : 2987
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 40.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3ESP S/N T3F11 Seismometer DM24 S/N A2193 Digitiser
+* INSTGAIN          : 348675.0349 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 4.024e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    9.45619e+02      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 4
+   -4.44221e-02      4.44221e-02
+   -4.44221e-02     -4.44221e-02
+   -5.05796e+02      1.93522e+02
+   -5.05796e+02     -1.93522e+02
+CONSTANT 4.351912e+11

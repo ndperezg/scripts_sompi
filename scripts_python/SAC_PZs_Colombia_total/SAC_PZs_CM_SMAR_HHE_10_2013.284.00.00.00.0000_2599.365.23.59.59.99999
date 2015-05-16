@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): SMAR
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2014-04-15T16:30:18
+* START             : 2013-10-03T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Santa Marta, Magdalena, Colombia
+* LATITUDE          : 11.16
+* LONGITUDE         : -74.22  
+* ELEVATION         : 109.7
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek  S/N G10161VS Seismometer Q330 ID5346 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.99891e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -1.81800e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 6
+   -3.70184e-02     -3.70296e-02
+   -3.70184e-02      3.70296e-02
+   -1.80331e+02     -1.89922e+02
+   -1.80331e+02      1.89922e+02
+   -2.09581e+01      0.00000e+00
+   -7.72030e+02      0.00000e+00
+CONSTANT 5.050018e+16

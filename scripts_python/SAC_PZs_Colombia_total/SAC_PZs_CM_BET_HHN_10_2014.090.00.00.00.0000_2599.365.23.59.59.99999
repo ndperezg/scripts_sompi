@@ -1,0 +1,34 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): BET
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2014-04-15T16:30:18
+* START             : 2014-03-31T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Betania - (represa), Huila, Colombia
+* LATITUDE          : 2.7225
+* LONGITUDE         : -75.4178 
+* ELEVATION         : 557
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek  S/N G12210VS Seismometer Q330 ID3984 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       :  1.98833e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 4
+   -3.70200e-02     -3.70200e-02
+   -3.70200e-02      3.70200e-02
+   -1.77720e+02     -1.77720e+02
+   -1.77720e+02      1.77720e+02
+CONSTANT 5.310695e+13

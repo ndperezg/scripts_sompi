@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): OM
+* STATION    (KSTNM): RREF
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHZ
+* CREATED           : 2013-01-30T16:30:18
+* START             : 2009-07-21T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Refugio, Volcan Nevado del Ruiz, Caldas, Colombia
+* LATITUDE          : 4.9
+* LONGITUDE         : -75.3470  
+* ELEVATION         : 4743
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          :  Guralp 3ESP S/N T3Y59 Seismometer Guralp DM 24 Digitiser S/N A072
+* INSTGAIN          : 314861.461 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 5.932e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -7.40159e-02     -7.40159e-02
+   -7.40159e-02      7.40159e-02
+   -1.13097e+03      0.00000e+00
+   -1.00531e+03      0.00000e+00
+   -5.02655e+02      0.00000e+00
+CONSTANT 1.067559e+18

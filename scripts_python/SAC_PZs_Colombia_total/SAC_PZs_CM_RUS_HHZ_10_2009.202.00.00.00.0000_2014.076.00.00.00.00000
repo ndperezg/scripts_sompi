@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): RUS
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHZ
+* CREATED           : 2013-01-30T16:30:18
+* START             : 2009-07-21T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Rusia, Boyaca, Colombia
+* LATITUDE          : 5.89
+* LONGITUDE         : -73.08  
+* ELEVATION         : 3697
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3T S/N 35545 Seismometer DM24 S/N A1134 Digitiser
+* INSTGAIN          : 312012.4805 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.486e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -3.70080e-02      3.70080e-02
+   -3.70080e-02     -3.70080e-02
+   -1.13097e+03      0.00000e+00
+   -1.00531e+03      0.00000e+00
+   -5.02655e+02      0.00000e+00
+CONSTANT 2.650098e+17

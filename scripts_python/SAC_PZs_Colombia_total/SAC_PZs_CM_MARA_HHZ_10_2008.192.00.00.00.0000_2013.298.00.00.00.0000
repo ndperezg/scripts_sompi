@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): MARA
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHZ
+* CREATED           : 2013-01-30T16:30:18
+* START             : 2010-04-09T00:00:00
+* END               : 2013-10-25T23:59:59
+* DESCRIPTION       : Maravillas, volcan Nevado del Huila, Cauca, Colombia
+* LATITUDE          : 2.8425
+* LONGITUDE         : -75.9545 
+* ELEVATION         : 2207
+* DEPTH             : 00.0 
+* DIP               : 90.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3ESP S/N T34400 Seismometer Guralp DM 24 Digitiser S/N A979
+* INSTGAIN          : 310077.5194 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 5.884e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -7.40159e-02     -7.40159e-02
+   -7.40159e-02      7.40159e-02
+   -1.13097e+03      0.00000e+00
+   -1.00531e+03      0.00000e+00
+   -5.02655e+02      0.00000e+00
+CONSTANT 1.042832e+18

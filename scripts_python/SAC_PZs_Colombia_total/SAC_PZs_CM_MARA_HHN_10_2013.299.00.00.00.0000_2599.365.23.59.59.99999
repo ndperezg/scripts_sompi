@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): PP
+* STATION    (KSTNM): MARA
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2013-01-30T16:30:18
+* START             : 2010-04-09T00:00:00
+* END               : 2013-10-25T23:59:59
+* DESCRIPTION       : Maravillas, volcan Nevado del Huila, Cauca, Colombia
+* LATITUDE          : 2.8425
+* LONGITUDE         : -75.9545 
+* ELEVATION         : 2207
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek 151-60A S/N G10637VS Seismometer Reftek 130B Digitiser S/N B52B
+* INSTGAIN          : 362318.841 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.98443e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -1.81800e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 6
+   -7.40369e-02      7.40592e-02
+   -7.40369e-02     -7.40592e-02
+   -1.80331e+02      1.89922e+02
+   -1.80331e+02     -1.89922e+02
+   -2.09581e+01      0.00000e+00
+   -7.72030e+02      0.00000e+00
+CONSTANT 4.330784e+16

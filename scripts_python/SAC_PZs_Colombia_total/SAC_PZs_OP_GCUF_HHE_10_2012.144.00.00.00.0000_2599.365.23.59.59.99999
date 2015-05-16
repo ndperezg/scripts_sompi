@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): OP
+* STATION    (KSTNM): GCUF
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2013-08-14T16:30:18
+* START             : 2012-05-23T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Volcan Galeras,Cufiño, Nariño, Colombia
+* LATITUDE          : 1.2260
+* LONGITUDE         : -77.3450   
+* ELEVATION         : 3800
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 60.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3ESP S/N T34410 Seismometer DM24 S/N A978 Digitiser
+* INSTGAIN          : 312109.8627 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 5.872e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -7.40159e-02     -7.40159e-02
+   -7.40159e-02      7.40159e-02
+   -1.13097e+03      0.00000e+00
+   -1.00531e+03      0.00000e+00
+   -5.02655e+02      0.00000e+00
+CONSTANT 1.047526e+18

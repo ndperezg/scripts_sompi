@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+import os
+from glob import glob
+
+
+for sismograma in glob('')
+
+	Wav, Head, date, hour = [], [], [], []
+	r=open(sismograma, 'rU')
+
+	counter = 0
+	for linea in r:
+    		counter+=1
+    		if counter <= 5:
+        		print linea
+        		Head.append(linea.strip())
+    		else:
+        		Wav.append(float(linea))
+	print Head
+
+	date.append(Head[2][0:10])
+	hour.append(Head[2][11:24])
+	Fs = float(Head[3][0:8])
+	counts = float(Head[4][0:4])
+	Wav, Head, date, hour = [], [], [], []

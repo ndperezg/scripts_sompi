@@ -1,0 +1,76 @@
+#! /usr/bin/env python
+"""
+    Hace graficas por fecha de Q o de F para una estacion
+"""
+
+import matplotlib.pyplot as plt
+import datetime
+import os
+import sys
+
+Date, X, ErrX = [], [], [] #crea listas vacias
+
+#---- Revisa si hay parametros de entrada
+if len(sys.argv)<2:
+    print "No hay parametros de entrada"
+    sys.exit()
+
+#---Lee parametros de entrada
+
+sta = sys.argv[1]
+var = sys.argv[2]
+date_i = sys.argv[3]
+date_f = sys.argv[4]
+
+#--- Prepara los datos
+#os.system("./ordena_awk")
+
+if var == 'F':
+    a, b = 3 , 4
+elif var == 'Q':
+    a, b = 7, 8
+else:
+    print 'error'
+    sys.exit()
+
+r= open('resultados.txt','rU')
+sompi=r.readlines()            #lee lineas del archivo
+    
+for line in sompi:                  #separa por columnas cada linea
+    if sta in line:
+        nfo=line.split(" ")
+        print line
+        Date.append(nfo[0])
+        X.append(float(nfo[a]))
+        ErrX.append(float(nfo[b]))
+for fec in range(len(Date)):   #transforma strs en objetos datetime
+    Date[fec] = datetime.datetime.strptime(Date[fec], '%Y/%m/%d%H:%M:%S')
+    
+    print fec, Date[fec]
+#---Arregla fechas
+
+date_i = datetime.datetime.strptime(date_i, '%Y%m%d')
+date_f = datetime.datetime.strptime(date_f, '%Y%m%d')
+
+####Hace la grafica#####
+
+if var=='Q':
+    col= "green"
+else:
+    col= "red"
+
+fig = plt.figure()
+plt.plot(Date, X, 'o',color= col, markersize=10)
+plt.errorbar(Date,X, ErrX, xerr=None, fmt=None, ecolor=col)
+#plt.xlabel('fecha',fontsize=20)
+plt.ylabel(var,fontsize=20)
+plt.title(sta, fontsize=26)
+plt.xticks(rotation=40)
+plt.xlim((date_i, date_f))
+plt.show()
+
+guardar = raw_input('Desea guardar la imagen?\n')
+if guardar == 's':
+	fig.savefig("../graficas/periodos_especificos/"+sta+"_"+var+"_"+sys.argv[3]+"-"+sys.argv[4]+".png",format='png',dpi=300)
+else:
+	sys.exit()

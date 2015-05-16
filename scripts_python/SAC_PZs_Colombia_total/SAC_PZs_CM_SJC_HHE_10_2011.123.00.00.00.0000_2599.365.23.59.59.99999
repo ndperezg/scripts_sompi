@@ -1,0 +1,37 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): SJC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHE
+* CREATED           : 2013-09-13T16:30:18
+* START             : 2013-03-21T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : San Jacinto, Bolivar, Colombia
+* LATITUDE          : 9.90
+* LONGITUDE         : -75.18  
+* ELEVATION         : 597.7
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 90.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek 151-120A S/N G10172VS Seismometer Q330 ID 4656 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 2.00646e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 4
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+   -1.81800e+01      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 6
+   -3.70184e-02     -3.70296e-02
+   -3.70184e-02      3.70296e-02
+   -1.80331e+02     -1.89922e+02
+   -1.80331e+02      1.89922e+02
+   -2.09581e+01      0.00000e+00
+   -7.72030e+02      0.00000e+00
+CONSTANT 5.069088e+16

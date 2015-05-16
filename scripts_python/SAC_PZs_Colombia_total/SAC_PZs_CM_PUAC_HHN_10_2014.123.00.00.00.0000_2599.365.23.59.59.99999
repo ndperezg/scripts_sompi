@@ -1,0 +1,53 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): PUAC
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2014-05-16T16:30:18
+* START             : 2014-05-03T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Puerto Asis, Putumayo, Colombia
+* LATITUDE          : 0.5499
+* LONGITUDE         : -76.5701   
+* ELEVATION         : 327
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Reftek 151B-120 S/N G12214VS Seismometer Q330 3919 Digitiser
+* INSTGAIN          : 419430.40 (count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.98213e+03 V/(M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 4
+   -3.70200e-02     -3.70200e-02
+   -3.70200e-02      3.70200e-02
+   -1.77720e+02     -1.77720e+02
+   -1.77720e+02      1.77720e+02
+CONSTANT 5.251637e+13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

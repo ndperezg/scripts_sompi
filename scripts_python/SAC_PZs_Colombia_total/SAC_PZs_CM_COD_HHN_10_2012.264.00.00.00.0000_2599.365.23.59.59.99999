@@ -1,0 +1,35 @@
+* **********************************
+* NETWORK   (KNETWK): CM
+* STATION    (KSTNM): COD
+* LOCATION   (KHOLE): 10
+* CHANNEL   (KCMPNM): HHN
+* CREATED           : 2013-01-17T16:30:18
+* START             : 2012-09-20T00:00:00
+* END               : 2599-12-31T23:59:59
+* DESCRIPTION       : Codazzi, Cesar, Colombia
+* LATITUDE          : 9.93
+* LONGITUDE         : -73.44   
+* ELEVATION         : 100
+* DEPTH             : 00.0 
+* DIP               : 0.0 
+* AZIMUTH           : 0.0  
+* SAMPLE RATE       : 100.0
+* INPUT UNIT        : M
+* OUTPUT UNIT       : COUNTS
+* INSTTYPE          : Guralp 3T S/N T35543 Seismometer Q330 ID1112 Digitiser
+* INSTGAIN          :  419430.40 (Count/V)
+* COMMENT           : N/A
+* SENSITIVITY       : 1.494e+03 (M/S)
+* A0                : 0.000000e+07
+* **********************************
+ZEROS 3
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+    0.00000e+00      0.00000e+00
+POLES 5
+   -3.70080e-02      3.70080e-02
+   -3.70080e-02     -3.70080e-02
+   -1.13097e+03      0.00000e+00
+   -1.00531e+03      0.00000e+00
+   -5.02655e+02      0.00000e+00
+CONSTANT 3.581638e+17

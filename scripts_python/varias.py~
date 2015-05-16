@@ -1,0 +1,38 @@
+#!/usr/bin/env python2.7
+
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+import os
+from glob import glob
+
+
+fig1 = plt.figure(facecolor='white')
+ax1 = plt.axes(frameon=False)
+
+for sismograma in glob('*PTO*'):
+
+	Wav, Head, date, hour = [], [], [], []
+	r=open(sismograma, 'rU')
+	
+	counter = 0
+	for linea in r:
+    		counter+=1
+    		if counter <= 5:
+        		print linea
+        		Head.append(linea.strip())
+    		else:
+        		Wav.append(float(linea))
+	print Head
+
+	date.append(Head[2][0:10])
+	hour.append(Head[2][11:24])
+	Fs = float(Head[3][0:8])
+	counts = float(Head[4][0:4])
+	X= np.arange(0,len(Wav)/Fs,1/Fs)
+	Wav = np.array(Wav)
+	Wav = Wav - np.mean(Wav, dtype=np.float64)
+	Wav = Wav/max(Wav)
+	ax1.plot(X,Wav)
+	plt.legend(loc="upper right")
+
